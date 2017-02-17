@@ -11,3 +11,4 @@ nzbdrone \
 && apt-get upgrade -y
 VOLUME /home/steve/sonarr
 EXPOSE 8989 445 137 139
+ENTRYPOINT mono /opt/NzbDrone/NbzDrone.exe
